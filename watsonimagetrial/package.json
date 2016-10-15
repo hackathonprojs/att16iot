@@ -1,0 +1,15 @@
+{
+  "name": "watsonimagetrial",
+  "version": "0.0.0",
+  "description": "testing watson's image recognition or face recognition",
+  "main": "visualrecognitiontrial.js",
+  "dependencies": {
+    "watson-developer-cloud": "^2.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
