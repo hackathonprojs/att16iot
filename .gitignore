@@ -1,2 +1,4 @@
 main/public/camera/*.jpg
 main/public/camera/*.png
+watsonimagetrial/node_modules
+main/node_modules
