@@ -7,7 +7,7 @@ import time
 pygame.init()
 pygame.camera.init()
 camlist = pygame.camera.list_cameras()
-cam = pygame.camera.Camera(camlist[0], (640,480))
+cam = pygame.camera.Camera(camlist[0])
 cam.start()
 
 
