@@ -27,7 +27,7 @@ fs.watch(dirname, function(event, filename) {
 		if (filename) {
 			console.log('send to watson: ' + filename);
 			// wait for 3000 because file change may not be completed
-			setTimeout(sendToWatson(dirname + "/" + filename), 5000);
+			setTimeout(sendToWatson(dirname + "/" + filename), 15000);
 		} 		
 	}
 });

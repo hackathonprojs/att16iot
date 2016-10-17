@@ -17,7 +17,7 @@ while True:
     img = cam.get_image()
     pygame.image.save(img, "./public/camera/" + timestr + ".jpg")
     print "picture taken"
-    time.sleep(10)  # Delay for 1 minute (60 seconds)
+    time.sleep(30)  # Delay for 1 minute (60 seconds)
 
 
 pygame.camera.quit()
